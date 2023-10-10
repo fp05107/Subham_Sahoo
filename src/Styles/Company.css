@@ -1,0 +1,18 @@
+.companybox{
+    width: 35%;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.active {
+  transform: scale(1.2); /* Zoom in effect */
+  filter: sepia(100%) hue-rotate(180deg); /* Change the tint color for active images */
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+}
+
+.inactive {
+  transition: transform 0.2s, filter 0.2s;
+  cursor: pointer; /* Change cursor to indicate it's clickable */
+}
