@@ -10,16 +10,15 @@ import {
   styled,
 } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
-import DropdownMenu from "./DropdownMenu";
 import theme from "../theme/theme";
 
 export const Navbar = () => {
   const [hovered, setHovered] = useState(false);
-  const [expanded, setExpanded] = React.useState(false);
+  // const [expanded, setExpanded] = React.useState(false);
 
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
+  // const handleChange = (panel) => (event, isExpanded) => {
+  //   setExpanded(isExpanded ? panel : false);
+  // };
   const Search = styled("div")(({ theme }) => ({
     position: "relative",
     borderRadius: theme.shape.borderRadius,
@@ -61,15 +60,15 @@ export const Navbar = () => {
       },
     },
   }));
-  const [isDropdownVisible, setDropdownVisible] = useState(false);
+  // const [isDropdownVisible, setDropdownVisible] = useState(false);
 
-  const handleMouseEnter = () => {
-    setDropdownVisible(true);
-  };
+  // const handleMouseEnter = () => {
+  //   setDropdownVisible(true);
+  // };
 
-  const handleMouseLeave = () => {
-    setDropdownVisible(false);
-  };
+  // const handleMouseLeave = () => {
+  //   setDropdownVisible(false);
+  // };
 
   return (
     <Box

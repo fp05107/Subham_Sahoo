@@ -1,6 +1,6 @@
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Box, Paper } from "@mui/material";
+import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
 
 const Slider = () => {
@@ -77,7 +77,7 @@ const Slider = () => {
             <img
               style={{ width: "80%", height: "80%" }}
               src={item?.image}
-              alt="image"
+              // alt="image"
             />
           </Box>
           <Box

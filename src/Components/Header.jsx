@@ -6,7 +6,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { AppBar, Box, Grid, Paper } from "@mui/material";
+import {  Box, Grid } from "@mui/material";
 import React, { useState } from "react";
 import theme from "../theme/theme";
 
@@ -29,7 +29,7 @@ const Header = () => {
         <Grid item>
           <img
             src="https://www.bni.com/wp-content/uploads/2020/05/BNI_logo_Red_refresh_RGB_final.png?x24229"
-            alt="image"
+            // alt="image"
           />
         </Grid>
         <Grid

@@ -16,11 +16,11 @@ const Home = () => {
       <Navbar />
       <Header />
       <div style={{ width: "100%" }}>
-        <img src="/assets/upperimage.png" alt="image" style={imageStyle} />
+        <img src="/assets/upperimage.png" alt="my mage" style={imageStyle} />
       </div>
       <Company />
       <div style={{ width: "100%" }}>
-        <img src="/assets/mid.png" alt="image" style={imageStyle} />
+        <img src="/assets/mid.png" alt="my mage" style={imageStyle} />
       </div>
       <Slider />
       <LocalChapter />

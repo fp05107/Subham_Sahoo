@@ -1,11 +1,10 @@
-import { Box, Grid, Stack, TextField } from "@mui/material";
+import { Box, Grid, Stack } from "@mui/material";
 import React from "react";
 import "../Styles/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faLinkedin,
-  faLinkedinIn,
   faSquareInstagram,
   faTwitter,
   faYoutube,
